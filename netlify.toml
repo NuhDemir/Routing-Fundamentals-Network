@@ -2,10 +2,12 @@
 [build]
   # Komutları çalıştırmadan önce bu klasöre git
   base = "routing-app"
+  
   # Projeyi build etmek için bu komutu çalıştır
   command = "npm run build"
-  # Build bittikten sonra bu klasörü yayınla
-  publish = "routing-app/dist"
+  
+  # Build bittikten sonra BU KLASÖRÜN İÇİNDEKİ 'dist' klasörünü yayınla
+  publish = "dist" 
 
 # React Router'ın çalışması için yönlendirme kuralı
 [[redirects]]
