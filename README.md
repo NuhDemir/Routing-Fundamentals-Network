@@ -1,9 +1,7 @@
 
 # Routing Academy: İnteraktif Ağ Yönlendirme Simülatörü
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/logo.svg" alt="Lucide Icons" width="80"/>
-</p>
+
 <p align="center">
   <em>Network routing'in temel prensiplerini oyunlaştırılmış ve interaktif bir web deneyimiyle öğrenin.</em>
 </p>
