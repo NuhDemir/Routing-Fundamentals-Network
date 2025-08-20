@@ -1,0 +1,14 @@
+# Build ayarları
+[build]
+  # Komutları çalıştırmadan önce bu klasöre git
+  base = "routing-app"
+  # Projeyi build etmek için bu komutu çalıştır
+  command = "npm run build"
+  # Build bittikten sonra bu klasörü yayınla
+  publish = "routing-app/dist"
+
+# React Router'ın çalışması için yönlendirme kuralı
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
