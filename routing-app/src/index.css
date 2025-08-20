@@ -1,0 +1,5 @@
+/* Dosya Yolu: src/index.css */
+
+@import "tailwindcss/preflight"; /* Temel reset stilleri */
+@import "tailwindcss/theme"; /* Tema (renkler, fontlar vb.) */
+@import "tailwindcss/utilities"; /* Yardımcı sınıflar (p-4, flex vb.) */
